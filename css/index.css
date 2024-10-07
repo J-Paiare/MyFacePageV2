@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* body */
+body{
+    background-color: #FFB4A2;
+    color: #6D6875;
+}
+/* -------------------------cabeçario ---------------------*/
+
+header {
+    display: flex;
+    background-color:#FFCDB2;
+    padding: 30px;
+    margin-bottom: 5px;
+
+}
+
+/* parte com informaçoes */
+main {
+    display: flex;
+    padding: 20px;
+
+}
+
+/* classe que engloba a bibliografia */
+.bibli{
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* artigo que engloba a bibliografia */
+article {
+    display: flex;
+    margin-right: 10px;
+    padding: 10px;
+    background-color:  #FFB4A2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(181, 131, 141, 0.5)
+
+}
+
+/* ajusta o tamanho da imagem */
+img {
+    width: 150px;
+   padding: 20px;
+   margin-top: 40px;
+    
+}
+/* ajusta a lista de interesses d aside */
+.int {
+margin-left: 30px;
+
+
+}
+
+/* area que fica ao lado do main */
+aside {
+
+padding: 40px;
+  width: 250px;
+  height: 30vh;
+  background-color:  #E5989B;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(181, 131, 141, 0.5)
+}
+
+/* section com as informaçoes de contato */
+
+section {
+    padding: 20px;
+    width: 200px;
+    /* margens para cima, baixo esquerda e direita */
+    margin: 50px 20px 20px 40px;
+    
+}
+
+/* footer da pagina */
+footer {
+    
+    background-color: #B5838D;
+    padding: 20px;
+
+    /* faz com que o footer fique em baixo */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
+}
+
